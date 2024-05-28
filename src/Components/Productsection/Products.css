@@ -1,0 +1,56 @@
+.product-area{
+    background-color: #F7F7F7;
+    padding: 50px 10px;
+}
+
+.innerproduct-area{
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.productcrd{
+    height: 140px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #7c7c7c;
+    border-radius: 12px;
+    font-size: 24px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: ease 0.4s;
+    font-weight: bold;
+}
+
+.productcrd:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.productcrd.crd1{
+    background-color: #43C0FF;
+
+}
+
+.productcrd.crd2{
+    background-color: #84A2FE;
+
+}
+
+.productcrd.crd3{
+    background-color: #DF78FE;
+
+}
+
+@media screen and (max-width: 694px) {
+   
+.innerproduct-area{
+    flex-direction: column;
+}
+.productcrd{
+    width: 100%;
+}
+  }

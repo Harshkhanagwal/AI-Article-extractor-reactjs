@@ -1,0 +1,42 @@
+.loadingarea{
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+.loader {
+    display: block;
+    --height-of-loader: 4px;
+    --loader-color: linear-gradient(90deg, #00DEFF 0%, #FE6AFE 100%);
+    width: 130px;
+    height: var(--height-of-loader);
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  .loader::before {
+    content: "";
+    position: absolute;
+    background: var(--loader-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    animation: moving 1s ease-in-out infinite;
+    ;
+  }
+  
+  @keyframes moving {
+    50% {
+      width: 100%;
+    }
+  
+    100% {
+      width: 0;
+      right: 0;
+      left: unset;
+    }
+  }

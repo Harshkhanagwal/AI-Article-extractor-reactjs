@@ -9,7 +9,7 @@ const Header = () => {
     <header className='main'>
         <nav className="container navbar w100">
             <a href="/"><span className="logo">TexkEvoke AI</span></a>
-            <a href="/"><span className="headericon"><FaGithub /></span></a>
+            <a href="https://github.com/Harshkhanagwal/AI-Article-extractor-reactjs"><span className="headericon"><FaGithub /></span></a>
         </nav>
     </header>
     </>

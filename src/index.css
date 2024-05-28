@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   font-family: "Josefin Sans", sans-serif;
@@ -7,36 +8,59 @@
   color: #130029;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
 }
 
-.container{
+.container {
   display: flex;
   max-width: 1140px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.logo{
+.logo {
   font-size: 24px;
   font-weight: bold;
   line-height: 24px;
 }
 
-.w100{
+.w100 {
   width: 100%;
 }
 
-.g-txt{
-  
+.g-txt {
+
   background: linear-gradient(96deg, #00DEFF 0%, #FE6AFE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+
+/* demo video  */
+
+.videoarea {
+  padding: 50px 0;
+}
+
+
+.videoarea {
+  padding: 50px 10px;
+}
+
+.videoarea h1 {
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.videoarea iframe {
+  max-width: 550px;
+  min-height: 290px;
+}

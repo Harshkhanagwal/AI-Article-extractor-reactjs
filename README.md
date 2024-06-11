@@ -1,4 +1,4 @@
-<h1 align="center" id="title">TexkEvoke AI -</h1>
+<h1 align="center" id="title">TexkEvoke-AI</h1>
 
 <p align="center"><img src="" alt="project-image"></p>
 
